@@ -1,0 +1,4 @@
+Developed in C# language. While compartmentalizing the logic of the system and the UI interface to allow 
+further development of additional interfaces. Using OOP principles.
+A system that manages customers in the garage, the status of the car's condition before and after, etc.
+*A class diagram is attached in the attached .dox document.
