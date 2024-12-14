@@ -5,7 +5,7 @@ This repository contains a collection of programming assignments developed using
 
 ## Assignments
 
-### Ex2. Memory Game
+### Ex02. Memory Game
 - **Description**: A console-based memory game supporting one or two players. It reinforces OOP principles and utilizes external libraries for console management.
 - **Key Features**:
   - Dynamic board size and real-time gameplay.
@@ -13,7 +13,7 @@ This repository contains a collection of programming assignments developed using
   - Score tracking and game conclusion.
 - **Technologies**: Arrays, external DLLs (`Ex02.ConsoleUtils.dll`), and error handling.
 
-### Ex3. Garage Management System
+### Ex03. Garage Management System
 - **Description**: A system for managing vehicles in a garage. The application separates logic and UI, demonstrating OOP principles like inheritance and polymorphism.
 - **Key Features**:
   - Add and update vehicle data.
@@ -21,7 +21,7 @@ This repository contains a collection of programming assignments developed using
   - Retrieve and display vehicle details.
 - **Technologies**: Enums, collections, custom exceptions, and DLLs (`Ex03.GarageLogic.dll`).
 
-### Ex4. Hierarchical Menu Management System
+### Ex04. Hierarchical Menu Management System
 - **Description**: A reusable menu management system for console applications. It supports hierarchical menus with flexible navigation and action execution.
 - **Key Features**:
   - Navigation through nested menus.
