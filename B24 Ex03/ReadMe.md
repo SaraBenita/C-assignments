@@ -9,12 +9,38 @@ A comprehensive system for managing vehicles in a garage, designed to demonstrat
 - Display vehicle details with filters for state or registration number.
 - Handle errors with custom exceptions for validation.
 
+## System Structure
+
+### Core Classes
+- **`Vehicle` (Base Class)**:
+  - Represents general attributes and behaviors shared by all vehicles.
+  - **Properties**:
+    - `ModelName` (string): The vehicle's model name.
+    - `LicenseNumber` (string): The unique registration number.
+    - `EnergyLeftPercentage` (float): Percentage of remaining energy (fuel or battery).
+    - `Wheels` (Collection of `Wheel` objects): Represents the set of wheels for the vehicle.
+
+- **Derived Classes**:
+  - **`Motorcycle`**:
+    - Includes additional attributes like `LicenseType` (enum) and `EngineCapacity` (int).
+  - **`Car`**:
+    - Adds attributes like `Color` (enum) and `NumberOfDoors` (enum).
+  - **`Truck`**:
+    - Adds `IsCarryingHazardousMaterials` (bool) and `CargoVolume` (float).
+
+- **Wheel Class**:
+  - Represents the properties of each wheel, including methods to inflate wheels.
+
+- **Energy Source Classes**:
+  - **Fuel**: Handles fuel type and levels.
+  - **Electric**: Manages battery capacity and charge levels.
+
 ## Technologies and Concepts
-- **Inheritance and Polymorphism**: Shared and specific functionalities across vehicle types.
-- **Collections**: Use of `List` or `Dictionary` to store vehicles.
-- **Enums**: For predefined states and types (e.g., fuel types).
-- **Custom Exceptions**: Robust error handling with exceptions like `ValueOutOfRangeException`.
-- **External Library**: Logic implemented in `Ex03.GarageLogic.dll` for reusability.
+- **Inheritance and Polymorphism**.
+- **Enums** for fixed options.
+- **Custom Exceptions** for robust error handling.
+- **Collections** for managing vehicles.
+- **Class Libraries** for separation of logic (`Ex03.GarageLogic.dll`).
 
 ## How to Run
 1. Build the solution in Visual Studio.
