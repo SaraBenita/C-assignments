@@ -5,6 +5,14 @@ This repository contains a collection of programming assignments developed using
 
 ## Assignments
 
+### Ex01. .NET and Assembly Basics
+- **Description**: Explore fundamental .NET concepts by analyzing assemblies with `ildasm` and solving beginner and advanced C# programming challenges.
+- **Key Features**:
+  - Assembly inspection, metadata analysis, and MSIL exploration.
+  - Binary sequence conversion and analysis.
+  - Recursive diamond printing and string analysis.
+- **Technologies**: `ildasm`, recursion, `StringBuilder`, and `Math` utilities.
+
 ### Ex02. Memory Game
 - **Description**: A console-based memory game supporting one or two players. It reinforces OOP principles and utilizes external libraries for console management.
 - **Key Features**:
